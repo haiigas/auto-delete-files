@@ -1,4 +1,4 @@
-How to use:
+### How to use
 - Set up database connection.
 - Save the autodelete.php file in the root directory.
 - On cPanel open the CronJob menu.
