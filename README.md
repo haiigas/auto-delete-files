@@ -1,4 +1,3 @@
-## PHP Auto Delete File CronJob
 How to use:
 - Set up database connection.
 - Save the autodelete.php file in the root directory.
