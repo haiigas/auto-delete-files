@@ -20,17 +20,17 @@
    Open the `autoremove.php` file and modify the database connection settings:
    
    ```php
-   $databaseHost = 'localhost';
-   $databaseName = 'database';
-   $databaseUsername = 'root';
-   $databasePassword = '';
+   $dbhost = 'localhost';
+   $dbname = 'database';
+   $dbuser = 'root';
+   $dbpassword = '';
    ```
 
 2. **Modify Table Name**:
    Ensure that the SQL query in `autoremove.php` corresponds to your database table where file information is stored.
 
    ```php
-   $result = mysqli_query($mysqli, "SELECT * FROM table_name");
+   $result = mysqli_query($mysqli, "SELECT * FROM table");
    ```
 
 3. **Upload Files**:
