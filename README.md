@@ -4,12 +4,14 @@
 `auto-delete-files` is a PHP script designed to automatically delete files from the server that are older than a specified duration, based on the file's creation date stored in the database. It uses a cron job to schedule regular checks and clean up old files to save server storage.
 
 ## Features
+
 - Automatically deletes files that are older than a specified duration (e.g., 2 months).
 - Checks file creation dates from the database to determine if a file should be deleted.
 - Customizable database connection and table for different use cases.
 - Works with any file directory structure (modify as needed).
 
 ## Requirements
+
 - PHP 5.6 or higher
 - MySQL database
 - Cron job set up on the server to execute the script at regular intervals.
