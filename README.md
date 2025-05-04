@@ -18,6 +18,7 @@
 ## Installation
 
 1. **Set up the Database Connection**:
+
    Open the `autoremove.php` file and modify the database connection settings:
    
    ```php
@@ -27,17 +28,20 @@
    $dbpassword = '';
    ```
 
-2. **Modify Table Name**:
+3. **Modify Table Name**:
+
    Ensure that the SQL query in `autoremove.php` corresponds to your database table where file information is stored.
 
    ```php
    $result = mysqli_query($mysqli, "SELECT * FROM table");
    ```
 
-3. **Upload Files**:
+5. **Upload Files**:
+
    Place `autoremove.php` on your server where the cron job will run.
 
-4. **Set up Cron Job**:
+7. **Set up Cron Job**:
+
    Set up a cron job to run the script at a desired frequency (e.g., daily or weekly).
 
    Example (Run daily at midnight):
